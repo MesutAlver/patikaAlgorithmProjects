@@ -1,0 +1,16 @@
+# patikaAlgorithmProjects 
+
+                                1. sorunun cevabı: Listeyi her adımda parçlara ayırıp tek eleman kalana kadar parçalara böleriz.
+                                                 Böldükten sonra sıralı bir şekilde bize sunuyor (Performans).
+                                                                [16,21,11,8,12,22] -> Merge Sort
+                                                             
+                                                            [16 21 11]     -      [8 12 22]
+                                                           [16] [21 11]          [8 12] [22]
+                                                          [16] [21] [11]        [8] [12] [22]
+                                                           [16] [11 21]          [8 12] [22]
+                                                            [11 16 21]            [8 12 22]       
+                                                                  [8 11 12 16 21 22]
+                                                                  
+                                                                  
+                                                                   
+                                2. sorunun cevabı: O(nlogn)                                 
